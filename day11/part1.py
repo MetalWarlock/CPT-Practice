@@ -13,8 +13,8 @@ class Some_Error(BaseException):
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 dict_str = {}
 
-with open('input.txt') as IN:
-    string = IN.readline()
+with open('input.txt') as f:
+    string = f.readline()
     string = string.strip()
 
 counter = 1
