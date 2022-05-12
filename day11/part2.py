@@ -10,8 +10,8 @@ def new_password(dict_str):
 class Some_Error(BaseException):
     None
 
-with open('input.txt','r') as IN:
-    string = IN.readline()
+with open('input.txt','r') as f:
+    string = f.readline()
     string = string.strip()
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
